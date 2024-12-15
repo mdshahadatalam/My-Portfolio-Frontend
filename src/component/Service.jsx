@@ -8,8 +8,7 @@ export const Service = () => {
             <div className="row justify-center align-items-center py-28 processRes">
                 <div className="col-lg-5">
                     <h4 className='workPro'>What I do?</h4>
-                    <p className='proText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet, <br />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
+                    <p className='proText'>Hi I am a website front-end developer. As a front-end developer, I do basic website design as well as some backend work. Also design and make email signature figma. I do my work very efficiently. I always try to please my client.
                     </p>
 
                     <button className="tracking-wide w-32 h-12 font-serif bg-purple-600 rounded-md text-white transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg">

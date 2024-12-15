@@ -12,6 +12,8 @@ import { Education } from './component/Education';
 import { Service } from './component/Service';
 import { Contact } from './component/Contact';
 import { Footer } from './component/Footer';
+
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuPhoneCall } from "react-icons/lu";
@@ -7,7 +7,71 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { ToastContainer, toast } from 'react-toastify';
+import axios from 'axios'
 export const Contact = () => {
+
+  const [name,setName] = useState("")
+  const [email,setEmail] = useState("")
+  const [location,setLocation] = useState("")
+  const [message,setMessage] = useState("")
+  const [subject,setSubject] = useState("")
+
+  const handleName =(e)=>{
+    setName(e.target.value)
+  }
+ const handleEmail =(e)=>{
+  setEmail(e.target.value)
+ }
+ const handleLocation =(e)=>{
+  setLocation(e.target.value)
+ }
+ const handleMessage =(e)=>{
+  setMessage(e.target.value)
+ }
+
+ const handleSubject =(e)=>{
+  setSubject(e.target.value)
+ }
+
+ const handleSubmit =()=>{
+  console.log(name,email,location,subject,message)
+  axios.post('http://localhost:3000/sendEmail',{name,email,location,subject,message}).then(res=>{
+    console.log(res);
+    setName('')
+    setEmail('')
+    setLocation('')
+    setMessage('')
+    setSubject('')
+    toast.success('Successfully Send', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      // transition: Bounce,
+      });
+    
+  }).catch(err=>{
+    console.log(err);
+    toast.error('Please try again', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+      });
+  })
+ }
+ 
+ 
   return (
     <>
      <section id='contact' className='  h-[600px] aboutSectRes'>
@@ -16,7 +80,7 @@ export const Contact = () => {
             <div className="row ">
                 <div className="col-lg-6">
                  <h4 className='ConHead'>Let’s discuss your Project</h4>
-                 <p className='ConDami '>There are many variations of passages of Lorem Ipsu available. but the majority have suffered alte.</p>
+                 <p className='ConDami '>Follow this for direct contact and call below number for direct voice call</p>
 
                  <div className='d-flex mt-4 ContactOver  MyImg'>
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><IoLocationOutline /></span></div>
@@ -60,37 +124,36 @@ export const Contact = () => {
                 </div>
 
                 <div className="col-lg-6 font-serif">
-                  <p className='ConDami'>There are many variations of passages of Lorem Ipsu available,
-                  but the majority have suffered alte.</p>
+                  <p className='ConDami'>To contact me or want to talk about the project, enter your information in the input field below</p>
                  <div className='mt-4'>
                  <div className='mt-3'>
                   <label className='label' htmlFor="name">Name*</label> <br />
-                  <input className='inP' type="text" name="name" id="name"  />
+                  <input onChange={handleName} value={name} className='inP' type="text" name="name" id="name"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="email">Email*</label> <br />
-                  <input className='inP' type="email" name="email" id="email"  />
+                  <input onChange={handleEmail} value={email} className='inP' type="email" name="email" id="email"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="Location">Location*</label> <br />
-                  <input className='inP' type="text" name="Location" id="Location"  />
+                  <input onChange={handleLocation} value={location} className='inP' type="text" name="Location" id="Location"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="Subject">Subject*</label> <br />
-                  <input className='inP' type="text" name="Subject" id="Subject"  />
+                  <input  onChange={handleSubject} value={subject} className='inP' type="text" name="Subject" id="Subject"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="Message">Message*</label> <br />
-                  <input className='inP' type="text" name="Message" id="Message"  />
+                  <input onChange={handleMessage} value={message} className='inP' type="text" name="Message" id="Message"  />
                   </div>
                  </div>
                   
                   <div className='mt-3'> 
-                  <button className='submit transition text-white duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>Submit <VscSend /> </button>
+                  <button onClick={handleSubmit} className='submit transition text-white duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>Submit <VscSend /> </button>
                   </div>
 
                  </div>
@@ -106,7 +169,7 @@ export const Contact = () => {
             <div className="row">
             <div className="col-lg-6">
                  <h4 className='ConHead'>Let’s discuss your Project</h4>
-                 <p className='ConDami '>There are many variations of passages of Lorem Ipsu available. but the majority have suffered alte.</p>
+                 <p className='ConDami '>Follow this for direct contact and call below number for direct voice call.</p>
 
                  <div className='d-flex mt-4 ContactOver  MyImg'>
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><IoLocationOutline /></span></div>
@@ -150,37 +213,36 @@ export const Contact = () => {
 
                 <div className="col-lg-6">
                 <div className="col-lg-6 font-serif">
-                  <p className='ConDami pt-4'>There are many variations of passages of Lorem Ipsu available,
-                  but the majority have suffered alte.</p>
+                  <p className='ConDami pt-4'>To contact me or want to talk about the project, enter your information in the input field below</p>
                  <div className='mt-4'>
                  <div className='mt-3'>
                   <label className='label' htmlFor="name">Name*</label> <br />
-                  <input className='inP' type="text" name="name" id="name"  />
+                  <input onChange={handleName} value={name} className='inP' type="text" name="name" id="name"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="email">Email*</label> <br />
-                  <input className='inP' type="email" name="email" id="email"  />
+                  <input onChange={handleEmail} value={email} className='inP' type="email" name="email" id="email"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="Location">Location*</label> <br />
-                  <input className='inP' type="text" name="Location" id="Location"  />
+                  <input  onChange={handleLocation} value={location} className='inP' type="text" name="Location" id="Location"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="Subject">Subject*</label> <br />
-                  <input className='inP' type="text" name="Subject" id="Subject"  />
+                  <input onChange={handleSubject} value={subject}  className='inP' type="text" name="Subject" id="Subject"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="Message">Message*</label> <br />
-                  <input className='inP' type="text" name="Message" id="Message"  />
+                  <input  onChange={handleMessage} value={message} className='inP' type="text" name="Message" id="Message"  />
                   </div>
                  </div>
                   
                   <div className='mt-3'> 
-                  <button className='submit transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>Submit <VscSend /> </button>
+                  <button  onClick={handleSubmit} className='submit transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>Submit <VscSend /> </button>
                   </div>
 
                  </div>
@@ -191,7 +253,7 @@ export const Contact = () => {
         </div>
         </div>
     </section>
-
+  <ToastContainer/>
     </>
   )
 }

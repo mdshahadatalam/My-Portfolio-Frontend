@@ -31,10 +31,10 @@ export const Home = () => {
             </div>
           </div>
           <div className="col-4 px-1">
-            <div className='bg-purple-100 hover-effect transition-all duration-300 ease-in-out p-3 rounded-lg text-center'>
+            <a className='cv' href="#About"><div className='bg-purple-100 hover-effect transition-all duration-300 ease-in-out p-3 rounded-lg text-center'>
               <h4 className='m-0 additional'>Additional Info</h4>
               <p className='expedia'>More details here</p>
-            </div>
+            </div></a>
           </div>
         </div>
       </div>

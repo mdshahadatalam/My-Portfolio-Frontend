@@ -203,9 +203,9 @@ export const Contact = () => {
 
                   <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaInstagram /></span></a> </div>
 
-                  <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaGithubAlt /></span></a> </div>
+                  <div> <a target='none' href="https://github.com/mdshahadatalam"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaGithubAlt /></span></a> </div>
 
-                  <div><a target='none' href="https://github.com/mdshahadatalam"> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaLinkedinIn /></span></a> </div>
+                  <div><a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaLinkedinIn /></span></a> </div>
 
 
 

@@ -94,7 +94,7 @@ export const Contact = () => {
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><MdOutlineEmail /></span></div>
                   <div className='ps-2'>
                     <small className='address'>My Email:</small>
-                    <p className='addressMain'>mdshahadatalam25@gmail.com</p>
+                    <a target='none' className='cv cursor-pointer'  href="mailto:mdshahadatalam25@gmail.com"> <p className='addressMain'>mdshahadatalam25@gmail.com</p></a> 
                     </div>
                  </div>
 
@@ -102,18 +102,18 @@ export const Contact = () => {
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><LuPhoneCall /></span></div>
                   <div className='ps-2'>
                     <small className='address'>Call Me Now:</small>
-                    <p className='addressMain'>01917380230</p>
+                   <a target='none' className='cv cursor-pointer' href="tel:01917380230"> <p className='addressMain'>01917380230</p></a>
                     </div>
                  </div>
 
                  <div className='mt-7 d-flex'>
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaFacebookF /></span></div>
+                  <div> <a target='none' href="https://www.facebook.com/mdshahadat.alam.35380"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaFacebookF /></span></a> </div>
 
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaInstagram /></span></div>
+                  <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaInstagram /></span></a> </div>
 
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaGithubAlt /></span></div>
+                  <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaGithubAlt /></span></a> </div>
 
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaLinkedinIn /></span></div>
+                  <div> <a target='none' href="https://github.com/mdshahadatalam"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaLinkedinIn /></span></a> </div>
 
 
 
@@ -128,12 +128,12 @@ export const Contact = () => {
                  <div className='mt-4'>
                  <div className='mt-3'>
                   <label className='label' htmlFor="name">Name*</label> <br />
-                  <input onChange={handleName} value={name} className='inP' type="text" name="name" id="name"  />
+                  <input required onChange={handleName} value={name} className='inP' type="text" name="name" id="name"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="email">Email*</label> <br />
-                  <input onChange={handleEmail} value={email} className='inP' type="email" name="email" id="email"  />
+                  <input required onChange={handleEmail} value={email} className='inP' type="email" name="email" id="email"  />
                   </div>
 
                   <div className='mt-3'>
@@ -142,7 +142,7 @@ export const Contact = () => {
                   </div>
 
                   <div className='mt-3'>
-                  <label className='label' htmlFor="Subject">Subject*</label> <br />
+                  <label required className='label' htmlFor="Subject">Subject*</label> <br />
                   <input  onChange={handleSubject} value={subject} className='inP' type="text" name="Subject" id="Subject"  />
                   </div>
 
@@ -162,6 +162,9 @@ export const Contact = () => {
         </div>
         </div>
     </section>
+
+
+    {/* small device  */}
 
     <section id='contactNav' className='py-5 d-lg-none aboutDouble'>
         <div>
@@ -183,7 +186,7 @@ export const Contact = () => {
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><MdOutlineEmail /></span></div>
                   <div className='ps-2'>
                     <small className='address'>My Email:</small>
-                    <p className='addressMain'>mdshahadatalam25@gmail.com</p>
+                    <a target='none' className='cv cursor-pointer' href="mailto:mdshahadatalam25@gmail.com"><p className='addressMain'>mdshahadatalam25@gmail.com</p></a>
                     </div>
                  </div>
 
@@ -191,18 +194,18 @@ export const Contact = () => {
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><LuPhoneCall /></span></div>
                   <div className='ps-2'>
                     <small className='address'>Call Me Now:</small>
-                    <p className='addressMain'>01917380230</p>
+                   <a target='none' className='cv cursor-pointer' href="tel:01917380230"> <p className='addressMain'>01917380230</p></a>
                     </div>
                  </div>
 
                  <div className='mt-7 d-flex'>
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaFacebookF /></span></div>
+                  <div><a target='none' href="https://www.facebook.com/mdshahadat.alam.35380"> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaFacebookF /></span></a> </div>
 
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaInstagram /></span></div>
+                  <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaInstagram /></span></a> </div>
 
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaGithubAlt /></span></div>
+                  <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaGithubAlt /></span></a> </div>
 
-                  <div> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaLinkedinIn /></span></div>
+                  <div><a target='none' href="https://github.com/mdshahadatalam"> <span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#af3dff] hover:bg-[#af3dff] hover:text-white'> <FaLinkedinIn /></span></a> </div>
 
 
 
@@ -217,12 +220,12 @@ export const Contact = () => {
                  <div className='mt-4'>
                  <div className='mt-3'>
                   <label className='label' htmlFor="name">Name*</label> <br />
-                  <input onChange={handleName} value={name} className='inP' type="text" name="name" id="name"  />
+                  <input required onChange={handleName} value={name} className='inP' type="text" name="name" id="name"  />
                   </div>
 
                   <div className='mt-3'>
                   <label className='label' htmlFor="email">Email*</label> <br />
-                  <input onChange={handleEmail} value={email} className='inP' type="email" name="email" id="email"  />
+                  <input required onChange={handleEmail} value={email} className='inP' type="email" name="email" id="email"  />
                   </div>
 
                   <div className='mt-3'>
@@ -231,7 +234,7 @@ export const Contact = () => {
                   </div>
 
                   <div className='mt-3'>
-                  <label className='label' htmlFor="Subject">Subject*</label> <br />
+                  <label required className='label' htmlFor="Subject">Subject*</label> <br />
                   <input onChange={handleSubject} value={subject}  className='inP' type="text" name="Subject" id="Subject"  />
                   </div>
 

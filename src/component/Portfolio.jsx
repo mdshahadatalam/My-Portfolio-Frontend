@@ -100,10 +100,12 @@ export const Portfolio = () => {
                   </div>
                 </div>
             </div>
+            
 
-            <div className='d-flex justify-center mt-5'>
+            <a className='cv' target='none' href="https://github.com/mdshahadatalam"> <div className='d-flex justify-center mt-5'>
                 <button className='morePro transition duration-300 ease-in-out transform hover:bg-[#8A2BFF] hover:scale-105 hover:shadow-lg'>More Project</button>
-            </div>
+            </div></a>
+            
            
         </div>
     </section>

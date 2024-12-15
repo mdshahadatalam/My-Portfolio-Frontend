@@ -103,7 +103,9 @@ background: var(--gray-white);
  right: 0;
  left: 0;
   }
-
+.cv{
+	text-decoration: none;
+}
 .profess{
 	font-weight: 600;
 	font-size: 38px;

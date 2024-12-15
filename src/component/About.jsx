@@ -20,14 +20,15 @@ export const About = () => {
                   
                   <div className='possi d-flex bg-white shadow-md w-[38%] h-[60px] justify-center align-items-center rounded-md cursor-pointer position-absolute top-[380px] right-[200px] '>
 
-                     <div><span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></div>
+                     <div> <a target='none' href="https://www.facebook.com/mdshahadat.alam.35380"> <span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></div>
 
-                     <div><span className='text-xl w-[48px] h-[45px] 
-                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></div>
+                     <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></a></div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></div>
+                     <div><a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='text-xl w-[48px] h-[45px] 
+                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></a></div>
+
+                     <div> <a target='none' href="https://github.com/mdshahadatalam"> <span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></a> </div>
                   </div>
 
                 </div>
@@ -37,10 +38,14 @@ export const About = () => {
                     I design and develop services for customers specializing creating stylish, modern websites, web services.</p>
 
                     <div className='gap-x-3 d-flex buttonRes'>
-                    <button className='aboutBtn w-[132px] h-[48px] font-serif tracking-wide bg-[#A53DFF] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-lg'>
+                   <a target='none' href="https://github.com/mdshahadatalam">
+                   <button className='aboutBtn w-[132px] h-[48px] font-serif tracking-wide bg-[#A53DFF] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-lg'>
                         My Project
                          </button>
-                        <button  className=' d-flex justify-center align-items-center aboutBtn2 w-[190px] h-[48px] font-serif tracking-wide bg-[#ffffff] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'> <span className='mx-2'><BsDownload /> </span> Download CV</button>
+                   </a>
+                   <a className='cv' target='none' href="https://docs.google.com/document/d/1A75GwszbWGifLIC000LBFN5zf9H8qK8n5ovsdOkgBkU/edit?usp=sharing">
+                   <button  className=' d-flex justify-center align-items-center aboutBtn2 w-[190px] h-[48px] font-serif tracking-wide bg-[#ffffff] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'> <span className='mx-2'><BsDownload /> </span> Download CV</button></a>
+                      
                     </div>
 
 
@@ -49,14 +54,14 @@ export const About = () => {
                       <div className='IConREs'>
                         <div className=' possRes d-lg-none d-flex bg-white shadow-md w-[42%] h-[60px] justify-center align-items-center rounded-md cursor-pointer'>
 
-                     <div><span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></div>
+                     <div> <a target='none' href="https://www.facebook.com/mdshahadat.alam.35380"> <span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></div>
+                     <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="> <span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px] 
-                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></div>
+                     <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"> <span className='text-xl w-[48px] h-[45px] 
+                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></div>
+                     <div> <a target='none' href="https://github.com/mdshahadatalam"> <span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></a> </div>
                   </div>
                       </div>
                     
@@ -77,14 +82,14 @@ export const About = () => {
                   
                   <div className='possi d-flex bg-white shadow-md w-[38%] h-[60px] justify-center align-items-center rounded-md cursor-pointer position-absolute top-[380px] right-[200px] '>
 
-                     <div><span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></div>
+                     <div> <a target='none' href="https://www.facebook.com/mdshahadat.alam.35380"><span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></div>
+                     <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px] 
-                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></div>
+                     <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='text-xl w-[48px] h-[45px] 
+                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></div>
+                     <div> <a target='none' href="https://github.com/mdshahadatalam"><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></a> </div>
                   </div>
 
                 </div>
@@ -94,10 +99,15 @@ export const About = () => {
                     I design and develop services for customers specializing creating stylish, modern websites, web services.</p>
 
                     <div className='gap-x-3 d-flex buttonRes'>
+                    <a target='none' href="https://github.com/mdshahadatalam">
                     <button className='aboutBtn w-[132px] h-[48px] font-serif tracking-wide bg-[#A53DFF] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-lg'>
                         My Project
                          </button>
-                        <button  className=' d-flex justify-center align-items-center aboutBtn2 w-[190px] h-[48px] font-serif tracking-wide bg-[#ffffff] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'> <span className='mx-2'><BsDownload /> </span> Download CV</button>
+                    </a>
+
+                    <a target='none' className='cv' href="https://docs.google.com/document/d/1A75GwszbWGifLIC000LBFN5zf9H8qK8n5ovsdOkgBkU/edit?usp=sharing">
+                    <button  className=' d-flex justify-center align-items-center aboutBtn2 w-[190px] h-[48px] font-serif tracking-wide bg-[#ffffff] rounded-sm transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'> <span className='mx-2'><BsDownload /> </span> Download CV</button></a>
+                       
                     </div>
 
 
@@ -106,14 +116,14 @@ export const About = () => {
                       <div className='IConREs'>
                         <div className=' possRes d-lg-none d-flex bg-white shadow-md w-[42%] h-[60px] justify-center align-items-center rounded-md cursor-pointer'>
 
-                     <div><span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></div>
+                     <div> <a target='none' href="https://www.facebook.com/mdshahadat.alam.35380"><span className=' text-xl w-[48px] h-[45px] text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2]  hover:scale-105 hover:text-white hover:shadow-lg'><RiFacebookFill /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span></div>
+                     <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaInstagram /></span> </a></div>
 
-                     <div><span className='text-xl w-[48px] h-[45px] 
-                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></div>
+                     <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='text-xl w-[48px] h-[45px] 
+                      text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><GrLinkedinOption /></span></a> </div>
 
-                     <div><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></div>
+                     <div><a target='none' href="https://github.com/mdshahadatalam"><span className='text-xl w-[48px] h-[45px]  text-[#A53DFF] d-inline-block rounded-md justify-center align-items-center d-flex contactIcon transition-transform duration-300 ease-in-out hover:bg-[#8A2BE2] hover:scale-105 hover:text-white hover:shadow-l'><FaGit /></span></a></div>
                   </div>
                       </div>
                     

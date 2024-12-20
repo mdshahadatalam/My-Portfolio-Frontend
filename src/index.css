@@ -154,7 +154,7 @@ line-height: 150%;
 
 @media (max-width: 575.98px) { 
 
-	.possi {
+	.possi{
 		opacity: 0;
 	}
 
@@ -176,6 +176,14 @@ line-height: 150%;
 	}
 	.processRes{
 		padding: 0;
+	}
+ }
+
+ @media (max-width: 770px) { 
+	.possi{
+		opacity: 1;
+		/* display: none; */
+		visibility: hidden;
 	}
  }
  

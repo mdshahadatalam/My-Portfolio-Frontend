@@ -13,9 +13,9 @@ export const Home = () => {
           I'm a  Website Front-end Designer and Developer based in Chittagong, Bangladesh. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.
         </p>
 
-        <button className="tracking-wide w-32 h-12 font-serif bg-purple-600 rounded-md text-white transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg">
+        <a target='none' href="mailto:mdshahadatalam25@gmail.com"><button className="tracking-wide w-32 h-12 font-serif bg-purple-600 rounded-md text-white transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg">
           Say Hello!
-        </button>
+        </button></a>
 
         <div className='row py-3 font-serif cursor-pointer'>
           <div className="col-4 px-1">

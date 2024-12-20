@@ -83,7 +83,7 @@ export const Contact = () => {
                  <p className='ConDami '>Follow this for direct contact and call below number for direct voice call</p>
 
                  <div className='d-flex mt-4 ContactOver  MyImg'>
-                  <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><IoLocationOutline /></span></div>
+                  <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF] shadow-md  d-inline-block'><IoLocationOutline /></span></div>
                   <div className='ps-2'>
                     <small className='address'>Address:</small>
                     <p className='addressMain'>Bangladesh Chattrogram</p>
@@ -91,7 +91,7 @@ export const Contact = () => {
                  </div>
                  
                  <div className='d-flex mt-4 ContactOver MyImg'>
-                  <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><MdOutlineEmail /></span></div>
+                  <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF] shadow-md   d-inline-block'><MdOutlineEmail /></span></div>
                   <div className='ps-2'>
                     <small className='address'>My Email:</small>
                     <a target='none' className='cv cursor-pointer'  href="mailto:mdshahadatalam25@gmail.com"> <p className='addressMain'>mdshahadatalam25@gmail.com</p></a> 
@@ -99,7 +99,7 @@ export const Contact = () => {
                  </div>
 
                  <div className='d-flex mt-4 ContactOver MyImg'>
-                  <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF]  d-inline-block'><LuPhoneCall /></span></div>
+                  <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF] shadow-md  d-inline-block'><LuPhoneCall /></span></div>
                   <div className='ps-2'>
                     <small className='address'>Call Me Now:</small>
                    <a target='none' className='cv cursor-pointer' href="tel:01917380230"> <p className='addressMain'>01917380230</p></a>
@@ -111,9 +111,9 @@ export const Contact = () => {
 
                   <div> <a target='none' href="https://www.instagram.com/_md_shahadat_alam_?igsh=MXZleWQ2M3NjY3ZuYQ=="><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaInstagram /></span></a> </div>
 
-                  <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaGithubAlt /></span></a> </div>
+                  <div> <a target='none' href="https://github.com/mdshahadatalam"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaGithubAlt /></span></a> </div>
 
-                  <div> <a target='none' href="https://github.com/mdshahadatalam"><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaLinkedinIn /></span></a> </div>
+                  <div> <a target='none' href="http://www.linkedin.com/in/md-shahadat-alam-2a2914326 "><span className='w-[48px] MyImg h-[48px] d-inline-block rounded-md shadow-md bg-[#EDD8FF] d-flex justify-center align-items-center ms-2 text-[#8A2BE2] hover:bg-[#8A2BE2] hover:text-white'> <FaLinkedinIn /></span></a> </div>
 
 
 

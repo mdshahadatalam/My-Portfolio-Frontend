@@ -32,7 +32,7 @@ export const Footer = () => {
                             className="text-[0.9rem] py-1.5 px-3 hover:bg-blue-400 rounded-md">English
                         </button>
                         <button
-                            className="text-[0.9rem] py-1.5 px-3 hover:bg-blue-400 rounded-md">Bengali
+                            className="text-[0.9rem] py-1.5 px-3 hover:bg-blue-400 rounded-md">Bangla
                         </button>
                        
                         <button

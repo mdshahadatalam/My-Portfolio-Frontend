@@ -11,9 +11,11 @@ export const Service = () => {
                     <p className='proText'>Hi I am a website front-end developer. As a front-end developer, I do basic website design as well as some backend work. Also design and make email signature figma. I do my work very efficiently. I always try to please my client.
                     </p>
 
+                    <a target='none' href="mailto:mdshahadatalam25@gmail.com">
                     <button className="tracking-wide w-32 h-12 font-serif bg-purple-600 rounded-md text-white transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg">
                        Say Hello!
                      </button>
+                    </a>
                 </div>
                 <div className="col-lg-7">
                    

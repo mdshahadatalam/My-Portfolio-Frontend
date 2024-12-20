@@ -20,7 +20,7 @@ export const Service = () => {
                 <div className="col-lg-7">
                    
                 <div className='container mx-auto p-4'>
-                  <div className='bg-white shadow-lg rounded-lg overflow-hidden my-4 MyImg'>
+                  <div data-aos="zoom-in" data-aos-duration="1000" className='bg-white shadow-lg rounded-lg overflow-hidden my-4 MyImg'>
                       <div className='p-6 font-serif'>
                           <h4 className='text-2xl font-bold text-gray-800 mb-2 serHeader'>Frontend Developer</h4>
                           <p className='text-gray-600'>
@@ -31,7 +31,7 @@ export const Service = () => {
                       </div>
                   </div>
 
-                    <div className='bg-white shadow-lg rounded-lg overflow-hidden my-4 MyImg'>
+                    <div data-aos="zoom-in" data-aos-duration="1500" className='bg-white shadow-lg rounded-lg overflow-hidden my-4 MyImg'>
                         <div className='p-6 font-serif'>
                             <h4 className='text-2xl font-bold text-gray-800 mb-2 serHeader'>Email Signature</h4>
                             <p className='text-gray-600'>
@@ -42,7 +42,7 @@ export const Service = () => {
                         </div>
                     </div>
 
-                     <div className='bg-white shadow-lg rounded-lg overflow-hidden my-4 MyImg'>
+                     <div data-aos="zoom-in" data-aos-duration="2000" className='bg-white shadow-lg rounded-lg overflow-hidden my-4 MyImg'>
                          <div className='p-6 font-serif'>
                              <h4 className='text-2xl font-bold text-gray-800 mb-2 serHeader'>Figma</h4>
                              <p className='text-gray-600'>

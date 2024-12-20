@@ -10,9 +10,9 @@ export const Portfolio = () => {
     <>
     <section  id='portfolio' className='py-5 '>
         <div className="container">
-        <h4 className='togeHead text-black py-2'>Portfolio</h4>
+        <h4 data-aos="zoom-in" data-aos-duration="2000" className='togeHead text-black py-2'>Portfolio</h4>
 
-           <p className='togePera  py-2'>There are many variations of passages of Lorem Ipsum available,
+           <p data-aos="zoom-in" data-aos-duration="2000" className='togePera  py-2'>There are many variations of passages of Lorem Ipsum available,
             but the majority have suffered alteration.</p>
             <div className="row font-serif">
                 <div className="col-lg-4">

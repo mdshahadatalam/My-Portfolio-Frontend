@@ -15,7 +15,7 @@ export const Education = () => {
       <h1 className="title">Education Statutes</h1>
       <div className="statute-list">
         {statutes.map(statute => (
-          <div className="statute-card cursor-pointer" key={statute.id}>
+          <div data-aos="zoom-in" data-aos-duration="2000" className="statute-card cursor-pointer" key={statute.id}>
             <h2 className="statute-title font-serif tracking-wide">{statute.title}</h2>
             <p className="statute-description font-serif tracking-wide">{statute.description}</p>
             <p className='font-serif tracking-wide'> Subject: {statute.subject}</p>

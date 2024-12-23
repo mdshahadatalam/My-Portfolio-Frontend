@@ -36,7 +36,7 @@ export const Contact = () => {
 
  const handleSubmit =()=>{
   console.log(name,email,location,subject,message)
-  axios.post('http://localhost:3000/sendEmail',{name,email,location,subject,message}).then(res=>{
+  axios.post('https://my-portfolio-backend-wheat.vercel.app/sendEmail',{name,email,location,subject,message}).then(res=>{
     console.log(res);
     setName('')
     setEmail('')

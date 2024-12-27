@@ -38,7 +38,7 @@ export const Contact = () => {
 
  const handleSubmit =()=>{
   setLoader(true)
-  console.log(name,email,location,subject,message)
+  // console.log(name,email,location,subject,message)
   axios.post('https://my-portfolio-backend-wheat.vercel.app/sendEmail',{name,email,location,subject,message}).then(res=>{
     setLoader(false)
     console.log(res);
@@ -252,8 +252,9 @@ export const Contact = () => {
                   <div className='mt-3'> 
                   <button  onClick={handleSubmit} className='submit transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>
                     {
-                      loader ? <SyncLoader  size={5} color='white'/> : `Submit ${<VscSend />}`
+                      loader ? <SyncLoader  size={5} color='white'/> : "Submit" 
                     }
+                    <VscSend />
                     
                     </button>
                   </div>

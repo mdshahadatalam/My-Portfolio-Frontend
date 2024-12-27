@@ -9,6 +9,7 @@ import { FaGithubAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios'
+import SyncLoader from './../../node_modules/react-spinners/esm/SyncLoader';
 export const Contact = () => {
 
   const [name,setName] = useState("")
@@ -16,6 +17,7 @@ export const Contact = () => {
   const [location,setLocation] = useState("")
   const [message,setMessage] = useState("")
   const [subject,setSubject] = useState("")
+  const [loader,setLoader] = useState(false)
 
   const handleName =(e)=>{
     setName(e.target.value)
@@ -245,7 +247,12 @@ export const Contact = () => {
                  </div>
                   
                   <div className='mt-3'> 
-                  <button  onClick={handleSubmit} className='submit transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>Submit <VscSend /> </button>
+                  <button  onClick={handleSubmit} className='submit transition duration-300 ease-in-out transform hover:bg-purple-500 hover:scale-105 hover:shadow-lg'>
+                    {
+                      loader ? <SyncLoader  size={5} color='white'/> : `Submit ${<VscSend />}`
+                    }
+                    
+                    </button>
                   </div>
 
                  </div>

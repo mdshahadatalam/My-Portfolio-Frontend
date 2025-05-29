@@ -14,6 +14,7 @@ export const Skill = () => {
         { skill: 'Bootstrap', percentage: '95%', color: 'bg-primary' },
         { skill: 'JavaScript', percentage: '70%', color: 'bg-gray-500' },
         { skill: 'React.js', percentage: '80%', color: 'bg-danger' },
+        { skill: 'Next.js', percentage: '70%', color: 'bg-black' },
         { skill: 'Node.js', percentage: '70%', color: 'bg-danger' },
         { skill: 'Express.js', percentage: '70%', color: 'bg-info' },
         { skill: 'Mongoose.js', percentage: '80%', color: 'bg-slate-950' },

@@ -1,5 +1,5 @@
 import React from 'react'
-import myImg from '../assets/images/MyImages/MyImg.png'
+import myImg from '../assets/images/MyImages/MyImg2.jpg'
 import { BsDownload } from "react-icons/bs";
 import { RiFacebookFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";

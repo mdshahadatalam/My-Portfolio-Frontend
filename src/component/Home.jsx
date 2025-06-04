@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
 import myImg from '../assets/images/MyImages/MyImg2.jpg'
-
+import animation from '../../public/animation/animation.json'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Lottie from 'lottie-react';
 
 export const Home = () => {
   useEffect( ()=>{
@@ -47,7 +48,8 @@ export const Home = () => {
       </div>
 
       <div data-aos="zoom-in" data-aos-duration="2000" className="col-lg-5 col-md-12 d-flex justify-center">
-        <img src={myImg} className='img-fluid shadow-md rounded-lg MyImg' alt="Md Shahadat Alam" />
+        {/* <img src={animation} className='img-fluid shadow-md rounded-lg MyImg' alt="Md Shahadat Alam" /> */}
+          <Lottie animationData={animation} loop={true} />
       </div>
     </div>
   </div>

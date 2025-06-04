@@ -42,7 +42,7 @@ export const Portfolio = () => {
                     <h4 className='product'>NFT Marketplace</h4>
                     <p className='portDami'>Discover, buy, and sell unique digital art and NFTs. Secure, fast, and made for creators.</p>
 
-                     <a target='none' className='cv' href="https://nft-marketplace-next-rho.vercel.app"><span className='d-flex align-items-center case transition duration-300 ease-in-out transform hover:bg-[#8A2BFF] hover:scale-105 hover:shadow-lg hover:text-white'> View live 
+                     <a target='none' className='cv' href="https://nft-marketplace-next-rho.vercel.app/"><span className='d-flex align-items-center case transition duration-300 ease-in-out transform hover:bg-[#8A2BFF] hover:scale-105 hover:shadow-lg hover:text-white'> View live 
                      <span className='text-2xl pt-1 ps-1'><IoIosArrowRoundForward /></span>
                      </span></a>
                     </div>

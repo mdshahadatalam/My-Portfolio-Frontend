@@ -11,8 +11,8 @@ export const Process = () => {
         <div className="container">
             <div className="row justify-center align-items-center py-28 processRes">
                 <div className="col-lg-5">
-                    <h4 data-aos="zoom-in" data-aos-duration="2000" className='workPro'>Work Process</h4>
-                    <p data-aos="zoom-in" data-aos-duration="2500" className='proText'>I always do my best and try to please the client. I work according to all the needs of the client. I complete my work very accurately and efficiently.
+                    <h4  className='workPro'>Work Process</h4>
+                    <p  className='proText'>I always do my best and try to please the client. I work according to all the needs of the client. I complete my work very accurately and efficiently.
                     </p>
                 </div>
                 <div className="col-lg-7">

@@ -83,11 +83,11 @@ export const Contact = () => {
         <div className='position-relative'>
         <div id='About' className="container position-absolute aboutSha p-5 shadow-lg  rounded-md">
             <div className="row ">
-                <div className="col-lg-6">
+                <div className="col-12 col-lg-6 mb-4">
                  <h4 className='ConHead'>Let’s discuss your Project</h4>
                  <p className='ConDami '>Follow this for direct contact and call below number for direct voice call</p>
 
-                 <div data-aos="zoom-in" data-aos-duration="1000" className='d-flex mt-4 ContactOver  MyImg'>
+                 <div  className='d-flex mt-4 ContactOver  MyImg'>
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF] shadow-md  d-inline-block'><IoLocationOutline /></span></div>
                   <div className='ps-2'>
                     <small className='address'>Address:</small>
@@ -95,7 +95,7 @@ export const Contact = () => {
                     </div>
                  </div>
                  
-                 <div data-aos="zoom-in" data-aos-duration="1500" className='d-flex mt-4 ContactOver MyImg'>
+                 <div  className='d-flex mt-4 ContactOver MyImg'>
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF] shadow-md   d-inline-block'><MdOutlineEmail /></span></div>
                   <div className='ps-2'>
                     <small className='address'>My Email:</small>
@@ -103,7 +103,7 @@ export const Contact = () => {
                     </div>
                  </div>
 
-                 <div data-aos="zoom-in" data-aos-duration="2000" className='d-flex mt-4 ContactOver MyImg'>
+                 <div  className='d-flex mt-4 ContactOver MyImg'>
                   <div><span className=' d-flex justify-center align-items-center text-xl w-[48px] h-[48px] iconHo rounded-sm p-[12px] text-[#A53DFF] bg-[#EDD8FF] shadow-md  d-inline-block'><LuPhoneCall /></span></div>
                   <div className='ps-2'>
                     <small className='address'>Call Me Now:</small>
@@ -128,7 +128,7 @@ export const Contact = () => {
                 
                 </div>
 
-                <div className="col-lg-6 font-serif">
+                <div className="col-12 col-lg-6 font-serif">
                   <p className='ConDami'>To contact me or want to talk about the project, enter your information in the input field below</p>
                  <div className='mt-4'>
                  <div className='mt-3'>

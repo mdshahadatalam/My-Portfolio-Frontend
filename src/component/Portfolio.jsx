@@ -4,15 +4,16 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import projectImg from '../assets/images/projectImg/Aytor.png'
 import projectImg2 from '../assets/images/projectImg/node.png'
 import projectImg3 from '../assets/images/projectImg/Screenshot (186).png'
+import projectImg4 from '../assets/images/projectImg/Screenshot (251).png'
 
 export const Portfolio = () => {
   return (
     <>
     <section  id='portfolio' className='py-5 '>
         <div className="container">
-        <h4 data-aos="zoom-in" data-aos-duration="2000" className='togeHead text-black py-2'>Portfolio</h4>
+        <h4  className='togeHead text-black py-2'>Portfolio</h4>
 
-           <p data-aos="zoom-in" data-aos-duration="2000" className='togePera  py-2'>This is my best project share with you</p>
+           <p  className='togePera  py-2'>This is my best project share with you</p>
             <div className="row font-serif">
                  
                   
@@ -58,6 +59,24 @@ export const Portfolio = () => {
                     <h4 className='product'>Doctor Appointment</h4>
                     <p className='portDami'>Book doctor appointments online with ease. Fast, secure, and trusted healthcare at your fingertips.</p>
                     <a target='none' className='cv' href="https://doctor-frontend-eta.vercel.app"><span className='d-flex align-items-center case transition duration-300 ease-in-out transform hover:bg-[#8A2BFF] hover:scale-105 hover:shadow-lg hover:text-white'> View live 
+                     <span className='text-2xl pt-1 ps-1'><IoIosArrowRoundForward /></span>
+                     </span></a>
+
+                     
+                    </div>
+                  </div>
+                </div>
+
+
+                {/* Four  */}
+                <div className="col-lg-4">
+                  <div className='portfolioCard MyImg mt-4'>
+                    <div className='d-flex justify-center'><img className='img-fluid ' src={projectImg4} alt="image" /></div>
+                    <div className='p-3'>
+                    <small className='uiUX'>FRONTEND DESIGN / BACKEND (React.js)</small>
+                    <h4 className='product'>Hotel Booking</h4>
+                    <p className='portDami'>Book your perfect stay instantly with our easy-to-use hotel booking platform. Comfort guaranteed!</p>
+                    <a target='none' className='cv' href="https://hotel-frontend-opal.vercel.app/"><span className='d-flex align-items-center case transition duration-300 ease-in-out transform hover:bg-[#8A2BFF] hover:scale-105 hover:shadow-lg hover:text-white'> View live 
                      <span className='text-2xl pt-1 ps-1'><IoIosArrowRoundForward /></span>
                      </span></a>
 
